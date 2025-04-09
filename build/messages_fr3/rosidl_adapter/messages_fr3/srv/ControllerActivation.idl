@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from messages_fr3/srv/ControllerActivation.srv
+// generated code does not contain a copyright notice
+
+
+module messages_fr3 {
+  module srv {
+    struct ControllerActivation_Request {
+      boolean controller_activation;
+    };
+    struct ControllerActivation_Response {
+      boolean success;
+    };
+  };
+};

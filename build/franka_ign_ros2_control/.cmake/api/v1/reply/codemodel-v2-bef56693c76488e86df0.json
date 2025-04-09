@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-bea3fbead2ed07a9d3b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "franka_ign_ros2_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_ign_ros2_control-system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_ign_ros2_control-system-Release-087a9b7314e298825de0.json",
+					"name" : "franka_ign_ros2_control-system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_ign_ros2_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_ign_ros2_control_uninstall-Release-12a0a22cb619ad7c79b7.json",
+					"name" : "franka_ign_ros2_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ign_hardware_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ign_hardware_plugins-Release-8dda8c0dbfbdd74c7de6.json",
+					"name" : "ign_hardware_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-3bf18c8d6b92842b9c3c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/matteo/franka_ros2_ws/build/franka_ign_ros2_control",
+		"source" : "/home/matteo/franka_ros2_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

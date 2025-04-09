@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from messages_fr3/srv/SetStiffness.srv
+// generated code does not contain a copyright notice
+
+
+module messages_fr3 {
+  module srv {
+    struct SetStiffness_Request {
+      double a;
+
+      double b;
+
+      double c;
+
+      double d;
+
+      double e;
+
+      double f;
+
+      boolean drillactivation;
+    };
+    struct SetStiffness_Response {
+      boolean success;
+    };
+  };
+};

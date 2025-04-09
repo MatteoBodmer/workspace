@@ -1,0 +1,10 @@
+/home/matteo/franka_ros2_ws/build/messages_fr3/rosidl_adapter/messages_fr3:srv/SetPose.idl
+/home/matteo/franka_ros2_ws/build/messages_fr3/rosidl_adapter/messages_fr3:srv/SetParam.idl
+/home/matteo/franka_ros2_ws/build/messages_fr3/rosidl_adapter/messages_fr3:srv/SetMode.idl
+/home/matteo/franka_ros2_ws/build/messages_fr3/rosidl_adapter/messages_fr3:srv/PlannerService.idl
+/home/matteo/franka_ros2_ws/build/messages_fr3/rosidl_adapter/messages_fr3:srv/SetStiffness.idl
+/home/matteo/franka_ros2_ws/build/messages_fr3/rosidl_adapter/messages_fr3:srv/ControllerActivation.idl
+/home/matteo/franka_ros2_ws/build/messages_fr3/rosidl_adapter/messages_fr3:msg/JacobianEE.idl
+/home/matteo/franka_ros2_ws/build/messages_fr3/rosidl_adapter/messages_fr3:msg/JointEEState.idl
+/home/matteo/franka_ros2_ws/build/messages_fr3/rosidl_adapter/messages_fr3:msg/PoseDirection.idl
+/home/matteo/franka_ros2_ws/build/messages_fr3/rosidl_adapter/messages_fr3:msg/JointConfig.idl

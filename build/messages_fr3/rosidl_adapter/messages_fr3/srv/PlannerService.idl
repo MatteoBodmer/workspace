@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from messages_fr3/srv/PlannerService.srv
+// generated code does not contain a copyright notice
+
+
+module messages_fr3 {
+  module srv {
+    struct PlannerService_Request {
+      string command;
+    };
+    struct PlannerService_Response {
+      boolean success;
+    };
+  };
+};

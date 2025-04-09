@@ -1,0 +1,304 @@
+[0.008s] Invoking command in '/home/matteo/franka_ros2_ws/build/franka_ign_ros2_control': CMAKE_PREFIX_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware:/home/matteo/franka_ros2_ws/install/franka_msgs:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control:/home/matteo/franka_ros2_ws/install/admittance_control:/home/matteo/franka_ros2_ws/install/messages_fr3:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller:/home/matteo/franka_ros2_ws/install/integration_launch_testing:/home/matteo/franka_ros2_ws/install/franka_bringup:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/matteo/franka_ros2_ws/install/franka_example_controllers:/home/matteo/franka_ros2_ws/install/franka_semantic_components:/home/matteo/franka_ros2_ws/install/franka_gazebo_bringup:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control:/home/matteo/franka_ros2_ws/install/franka_fr3_moveit_config:/home/matteo/franka_ros2_ws/install/franka_gripper:/home/matteo/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware/lib:/home/matteo/franka_ros2_ws/install/franka_msgs/lib:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/matteo/franka_ros2_ws/install/admittance_control/lib:/home/matteo/franka_ros2_ws/install/messages_fr3/lib:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/matteo/franka_ros2_ws/install/integration_launch_testing/lib:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/matteo/franka_ros2_ws/install/franka_example_controllers/lib:/home/matteo/franka_ros2_ws/install/franka_semantic_components/lib:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib:/home/matteo/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/matteo/franka_ros2_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.174s] -- Detecting CXX compiler ABI info
+[0.238s] -- Detecting CXX compiler ABI info - done
+[0.245s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.245s] -- Detecting CXX compile features
+[0.246s] -- Detecting CXX compile features - done
+[0.248s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.362s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.422s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.433s] -- Found controller_manager: 2.48.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.462s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.465s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.469s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.594s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.596s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.610s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.650s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.652s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.666s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.669s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.676s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.684s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.689s] -- Looking for pthread.h
+[0.738s] -- Looking for pthread.h - found
+[0.738s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.794s] -- Found Threads: TRUE  
+[0.846s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[0.848s] -- Found franka_hardware: 1.0.0 (/home/matteo/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake)
+[0.851s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.858s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[0.866s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.867s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.867s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.871s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.909s] -- Found tf2_eigen: 0.25.12 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.916s] -- Looking for ignition-gazebo6 -- found version 6.16.0
+[0.921s] -- Searching for dependencies of ignition-gazebo6
+[0.922s] -- Looking for sdformat12 -- found version 12.7.2
+[0.923s] -- Searching for dependencies of sdformat12
+[0.927s] -- Checking for module 'tinyxml2'
+[0.938s] --   Found tinyxml2, version 9.0.0
+[0.969s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.969s] -- Searching for dependencies of ignition-math6
+[0.972s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.972s] -- Searching for dependencies of ignition-utils1
+[0.974s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.975s] -- Searching for dependencies of ignition-plugin1
+[0.975s] -- Searching for <ignition-plugin1> component [loader]
+[0.976s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[0.977s] -- Searching for dependencies of ignition-plugin1-loader
+[0.977s] -- Searching for <ignition-plugin1> component [register]
+[0.979s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[0.979s] -- Searching for dependencies of ignition-plugin1-register
+[0.981s] -- Looking for ignition-transport11 -- found version 11.4.1
+[0.981s] -- Searching for dependencies of ignition-transport11
+[0.999s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.007s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.011s] -- Checking for module 'libzmq >= 4'
+[1.024s] --   Found libzmq , version 4.3.4
+[1.054s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.059s] -- Checking for module 'uuid'
+[1.075s] --   Found uuid, version 2.37.2
+[1.137s] -- Found UUID: TRUE  
+[1.138s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.139s] -- Searching for dependencies of ignition-utils1
+[1.139s] -- Searching for <ignition-utils1> component [cli]
+[1.143s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[1.143s] -- Searching for dependencies of ignition-utils1-cli
+[1.147s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.148s] -- Searching for dependencies of ignition-msgs8
+[1.169s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.170s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.179s] -- Searching for <ignition-transport11> component [log]
+[1.181s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[1.182s] -- Searching for dependencies of ignition-transport11-log
+[1.182s] -- Searching for <ignition-transport11> component [parameters]
+[1.185s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[1.185s] -- Searching for dependencies of ignition-transport11-parameters
+[1.186s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.189s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.190s] -- Searching for dependencies of ignition-common4
+[1.190s] -- Looking for dlfcn.h - found
+[1.191s] -- Looking for libdl - found
+[1.192s] -- Found DL: TRUE  
+[1.201s] -- Searching for <ignition-common4> component [profiler]
+[1.204s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[1.204s] -- Searching for dependencies of ignition-common4-profiler
+[1.205s] -- Searching for <ignition-common4> component [events]
+[1.207s] -- Looking for ignition-common4-events -- found version 4.7.0
+[1.208s] -- Searching for dependencies of ignition-common4-events
+[1.208s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.209s] -- Searching for <ignition-common4> component [av]
+[1.211s] -- Looking for ignition-common4-av -- found version 4.7.0
+[1.212s] -- Searching for dependencies of ignition-common4-av
+[1.216s] -- Checking for module 'libswscale'
+[1.231s] --   Found libswscale, version 5.9.100
+[1.266s] -- Found SWSCALE: TRUE  
+[1.272s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.287s] --   Found libavdevice , version 58.13.100
+[1.330s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[1.335s] -- Checking for module 'libavformat'
+[1.351s] --   Found libavformat, version 58.76.100
+[1.393s] -- Found AVFORMAT: TRUE  
+[1.399s] -- Checking for module 'libavcodec'
+[1.416s] --   Found libavcodec, version 58.134.100
+[1.464s] -- Found AVCODEC: TRUE  
+[1.472s] -- Checking for module 'libavutil'
+[1.488s] --   Found libavutil, version 56.70.100
+[1.531s] -- Found AVUTIL: TRUE  
+[1.537s] -- Looking for ignition-fuel_tools7 -- found version 7.3.0
+[1.537s] -- Searching for dependencies of ignition-fuel_tools7
+[1.640s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.651s] -- Checking for module 'jsoncpp'
+[1.668s] --   Found jsoncpp, version 1.9.5
+[1.710s] -- Found JSONCPP: TRUE  
+[1.717s] -- Checking for module 'libzip'
+[1.733s] --   Found libzip, version 1.7.3
+[1.776s] -- Found ZIP: TRUE  
+[1.776s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.778s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.778s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.783s] -- Looking for ignition-gui6 -- found version 6.8.0
+[1.787s] -- Searching for dependencies of ignition-gui6
+[1.814s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.814s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.815s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.815s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.819s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.820s] -- Searching for dependencies of ignition-rendering6
+[1.820s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.821s] -- Searching for dependencies of ignition-math6
+[1.821s] -- Searching for <ignition-math6> component [eigen3]
+[1.824s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[1.824s] -- Searching for dependencies of ignition-math6-eigen3
+[1.827s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.827s] -- Searching for dependencies of ignition-common4
+[1.827s] -- Looking for dlfcn.h - found
+[1.831s] -- Looking for libdl - found
+[1.839s] -- Searching for <ignition-common4> component [graphics]
+[1.842s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[1.843s] -- Searching for dependencies of ignition-common4-graphics
+[1.843s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.844s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.845s] -- Searching for <ignition-common4> component [events]
+[1.846s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.846s] -- Searching for dependencies of ignition-plugin1
+[1.846s] -- Searching for <ignition-plugin1> component [all]
+[1.850s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[1.850s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.854s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.894s] -- Looking for ignition-physics5 -- found version 5.3.2
+[1.895s] -- Searching for dependencies of ignition-physics5
+[1.895s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.896s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.896s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.898s] -- Searching for <ignition-physics5> component [heightmap]
+[1.900s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[1.901s] -- Searching for dependencies of ignition-physics5-heightmap
+[1.901s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.902s] -- Searching for <ignition-physics5> component [mesh]
+[1.905s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[1.906s] -- Searching for dependencies of ignition-physics5-mesh
+[1.906s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.907s] -- Searching for <ignition-physics5> component [sdf]
+[1.910s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[1.910s] -- Searching for dependencies of ignition-physics5-sdf
+[1.910s] -- Looking for sdformat12 -- found version 12.7.2
+[1.917s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[1.918s] -- Searching for dependencies of ignition-sensors6
+[1.937s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.938s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.938s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.939s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.939s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.941s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.941s] -- Looking for sdformat12 -- found version 12.7.2
+[1.944s] -- Searching for <ignition-sensors6> component [air_pressure]
+[1.944s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.0
+[1.945s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[1.946s] -- Searching for <ignition-sensors6> component [altimeter]
+[1.949s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.0
+[1.950s] -- Searching for dependencies of ignition-sensors6-altimeter
+[1.950s] -- Searching for <ignition-sensors6> component [imu]
+[1.953s] -- Looking for ignition-sensors6-imu -- found version 6.8.0
+[1.954s] -- Searching for dependencies of ignition-sensors6-imu
+[1.955s] -- Searching for <ignition-sensors6> component [force_torque]
+[1.961s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.0
+[1.961s] -- Searching for dependencies of ignition-sensors6-force_torque
+[1.962s] -- Searching for <ignition-sensors6> component [logical_camera]
+[1.965s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.0
+[1.966s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[1.967s] -- Searching for <ignition-sensors6> component [magnetometer]
+[1.970s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.0
+[1.970s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[1.971s] -- Searching for <ignition-sensors6> component [navsat]
+[1.974s] -- Looking for ignition-sensors6-navsat -- found version 6.8.0
+[1.975s] -- Searching for dependencies of ignition-sensors6-navsat
+[1.975s] -- Searching for <ignition-sensors6> component [rendering]
+[1.978s] -- Looking for ignition-sensors6-rendering -- found version 6.8.0
+[1.979s] -- Searching for dependencies of ignition-sensors6-rendering
+[1.980s] -- Searching for <ignition-sensors6> component [lidar]
+[1.983s] -- Looking for ignition-sensors6-lidar -- found version 6.8.0
+[1.983s] -- Searching for dependencies of ignition-sensors6-lidar
+[1.984s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[1.985s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[1.987s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.0
+[1.988s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[1.988s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[1.989s] -- Searching for <ignition-sensors6> component [camera]
+[1.992s] -- Looking for ignition-sensors6-camera -- found version 6.8.0
+[1.992s] -- Searching for dependencies of ignition-sensors6-camera
+[1.993s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[1.994s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[1.997s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.0
+[1.997s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[1.998s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[2.001s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.0
+[2.002s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[2.003s] -- Searching for <ignition-sensors6> component [depth_camera]
+[2.005s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.0
+[2.006s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[2.006s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[2.007s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[2.010s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.0
+[2.011s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[2.011s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[2.012s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[2.015s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.0
+[2.015s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[2.016s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[2.019s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[2.019s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.022s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.043s] -- Compiling against Ignition Fortress
+[2.044s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.115s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.218s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.220s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.220s] -- Configured cppcheck include dirs: /home/matteo/franka_ros2_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control/include
+[2.220s] -- Configured cppcheck exclude dirs and/or files: 
+[2.222s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.222s] -- Configured cpplint exclude dirs and/or files: 
+[2.223s] -- Added test 'lint_cmake' to check CMake code style
+[2.224s] -- Added test 'uncrustify' to check C / C++ code style
+[2.224s] -- Configured uncrustify additional arguments: 
+[2.225s] -- Added test 'xmllint' to check XML markup files
+[2.228s] -- Configuring done
+[2.305s] -- Generating done
+[2.318s] -- Build files have been written to: /home/matteo/franka_ros2_ws/build/franka_ign_ros2_control
+[2.340s] Invoked command in '/home/matteo/franka_ros2_ws/build/franka_ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware:/home/matteo/franka_ros2_ws/install/franka_msgs:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control:/home/matteo/franka_ros2_ws/install/admittance_control:/home/matteo/franka_ros2_ws/install/messages_fr3:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller:/home/matteo/franka_ros2_ws/install/integration_launch_testing:/home/matteo/franka_ros2_ws/install/franka_bringup:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/matteo/franka_ros2_ws/install/franka_example_controllers:/home/matteo/franka_ros2_ws/install/franka_semantic_components:/home/matteo/franka_ros2_ws/install/franka_gazebo_bringup:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control:/home/matteo/franka_ros2_ws/install/franka_fr3_moveit_config:/home/matteo/franka_ros2_ws/install/franka_gripper:/home/matteo/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware/lib:/home/matteo/franka_ros2_ws/install/franka_msgs/lib:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/matteo/franka_ros2_ws/install/admittance_control/lib:/home/matteo/franka_ros2_ws/install/messages_fr3/lib:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/matteo/franka_ros2_ws/install/integration_launch_testing/lib:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/matteo/franka_ros2_ws/install/franka_example_controllers/lib:/home/matteo/franka_ros2_ws/install/franka_semantic_components/lib:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib:/home/matteo/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/matteo/franka_ros2_ws/src/franka_ros2/franka_gazebo/franka_ign_ros2_control -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control
+[2.341s] Invoking command in '/home/matteo/franka_ros2_ws/build/franka_ign_ros2_control': CMAKE_PREFIX_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware:/home/matteo/franka_ros2_ws/install/franka_msgs:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control:/home/matteo/franka_ros2_ws/install/admittance_control:/home/matteo/franka_ros2_ws/install/messages_fr3:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller:/home/matteo/franka_ros2_ws/install/integration_launch_testing:/home/matteo/franka_ros2_ws/install/franka_bringup:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/matteo/franka_ros2_ws/install/franka_example_controllers:/home/matteo/franka_ros2_ws/install/franka_semantic_components:/home/matteo/franka_ros2_ws/install/franka_gazebo_bringup:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control:/home/matteo/franka_ros2_ws/install/franka_fr3_moveit_config:/home/matteo/franka_ros2_ws/install/franka_gripper:/home/matteo/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware/lib:/home/matteo/franka_ros2_ws/install/franka_msgs/lib:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/matteo/franka_ros2_ws/install/admittance_control/lib:/home/matteo/franka_ros2_ws/install/messages_fr3/lib:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/matteo/franka_ros2_ws/install/integration_launch_testing/lib:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/matteo/franka_ros2_ws/install/franka_example_controllers/lib:/home/matteo/franka_ros2_ws/install/franka_semantic_components/lib:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib:/home/matteo/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/matteo/franka_ros2_ws/build/franka_ign_ros2_control -- -j12 -l12
+[2.383s] [ 16%] [32mBuilding CXX object CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o[0m
+[2.384s] [ 33%] [32mBuilding CXX object CMakeFiles/franka_ign_ros2_control-system.dir/src/ign_ros2_control_plugin.cpp.o[0m
+[2.389s] [ 50%] [32mBuilding CXX object CMakeFiles/franka_ign_ros2_control-system.dir/src/model_kdl.cpp.o[0m
+[2.389s] [ 66%] [32mBuilding CXX object CMakeFiles/ign_hardware_plugins.dir/src/model_kdl.cpp.o[0m
+[13.468s] [ 83%] [32m[1mLinking CXX shared library libign_hardware_plugins.so[0m
+[13.859s] [ 83%] Built target ign_hardware_plugins
+[13.902s] [100%] [32m[1mLinking CXX shared library libfranka_ign_ros2_control-system.so[0m
+[14.144s] [100%] Built target franka_ign_ros2_control-system
+[14.152s] Invoked command in '/home/matteo/franka_ros2_ws/build/franka_ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware:/home/matteo/franka_ros2_ws/install/franka_msgs:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control:/home/matteo/franka_ros2_ws/install/admittance_control:/home/matteo/franka_ros2_ws/install/messages_fr3:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller:/home/matteo/franka_ros2_ws/install/integration_launch_testing:/home/matteo/franka_ros2_ws/install/franka_bringup:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/matteo/franka_ros2_ws/install/franka_example_controllers:/home/matteo/franka_ros2_ws/install/franka_semantic_components:/home/matteo/franka_ros2_ws/install/franka_gazebo_bringup:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control:/home/matteo/franka_ros2_ws/install/franka_fr3_moveit_config:/home/matteo/franka_ros2_ws/install/franka_gripper:/home/matteo/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware/lib:/home/matteo/franka_ros2_ws/install/franka_msgs/lib:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/matteo/franka_ros2_ws/install/admittance_control/lib:/home/matteo/franka_ros2_ws/install/messages_fr3/lib:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/matteo/franka_ros2_ws/install/integration_launch_testing/lib:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/matteo/franka_ros2_ws/install/franka_example_controllers/lib:/home/matteo/franka_ros2_ws/install/franka_semantic_components/lib:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib:/home/matteo/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/matteo/franka_ros2_ws/build/franka_ign_ros2_control -- -j12 -l12
+[14.153s] Invoking command in '/home/matteo/franka_ros2_ws/build/franka_ign_ros2_control': CMAKE_PREFIX_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware:/home/matteo/franka_ros2_ws/install/franka_msgs:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control:/home/matteo/franka_ros2_ws/install/admittance_control:/home/matteo/franka_ros2_ws/install/messages_fr3:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller:/home/matteo/franka_ros2_ws/install/integration_launch_testing:/home/matteo/franka_ros2_ws/install/franka_bringup:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/matteo/franka_ros2_ws/install/franka_example_controllers:/home/matteo/franka_ros2_ws/install/franka_semantic_components:/home/matteo/franka_ros2_ws/install/franka_gazebo_bringup:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control:/home/matteo/franka_ros2_ws/install/franka_fr3_moveit_config:/home/matteo/franka_ros2_ws/install/franka_gripper:/home/matteo/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware/lib:/home/matteo/franka_ros2_ws/install/franka_msgs/lib:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/matteo/franka_ros2_ws/install/admittance_control/lib:/home/matteo/franka_ros2_ws/install/messages_fr3/lib:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/matteo/franka_ros2_ws/install/integration_launch_testing/lib:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/matteo/franka_ros2_ws/install/franka_example_controllers/lib:/home/matteo/franka_ros2_ws/install/franka_semantic_components/lib:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib:/home/matteo/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/matteo/franka_ros2_ws/build/franka_ign_ros2_control
+[14.160s] -- Install configuration: "Release"
+[14.160s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib/libign_hardware_plugins.so
+[14.162s] -- Set runtime path of "/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib/libign_hardware_plugins.so" to ""
+[14.162s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/include
+[14.163s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/include/ign_ros2_control
+[14.163s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/include/ign_ros2_control/model_kdl.h
+[14.163s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/include/ign_ros2_control/ign_system.hpp
+[14.163s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/include/ign_ros2_control/ign_system_interface.hpp
+[14.163s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/include/ign_ros2_control/ign_ros2_control_plugin.hpp
+[14.163s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/environment/library_path.sh
+[14.163s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/environment/library_path.dsv
+[14.163s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib/libfranka_ign_ros2_control-system.so
+[14.163s] -- Set runtime path of "/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib/libfranka_ign_ros2_control-system.so" to ""
+[14.164s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/ign_hardware_plugins.xml
+[14.164s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/ament_index/resource_index/package_run_dependencies/franka_ign_ros2_control
+[14.164s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/ament_index/resource_index/parent_prefix_path/franka_ign_ros2_control
+[14.164s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/environment/ament_prefix_path.sh
+[14.164s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/environment/ament_prefix_path.dsv
+[14.164s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/environment/path.sh
+[14.164s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/environment/path.dsv
+[14.164s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/local_setup.bash
+[14.164s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/local_setup.sh
+[14.164s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/local_setup.zsh
+[14.164s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/local_setup.dsv
+[14.164s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/package.dsv
+[14.164s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/ament_index/resource_index/packages/franka_ign_ros2_control
+[14.164s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/ament_index/resource_index/franka_ign_ros2_control__pluginlib__plugin/franka_ign_ros2_control
+[14.165s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.165s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[14.165s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/cmake/franka_ign_ros2_controlConfig.cmake
+[14.165s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/cmake/franka_ign_ros2_controlConfig-version.cmake
+[14.165s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/package.xml
+[14.165s] Invoked command in '/home/matteo/franka_ros2_ws/build/franka_ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware:/home/matteo/franka_ros2_ws/install/franka_msgs:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control:/home/matteo/franka_ros2_ws/install/admittance_control:/home/matteo/franka_ros2_ws/install/messages_fr3:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller:/home/matteo/franka_ros2_ws/install/integration_launch_testing:/home/matteo/franka_ros2_ws/install/franka_bringup:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/matteo/franka_ros2_ws/install/franka_example_controllers:/home/matteo/franka_ros2_ws/install/franka_semantic_components:/home/matteo/franka_ros2_ws/install/franka_gazebo_bringup:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control:/home/matteo/franka_ros2_ws/install/franka_fr3_moveit_config:/home/matteo/franka_ros2_ws/install/franka_gripper:/home/matteo/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware/lib:/home/matteo/franka_ros2_ws/install/franka_msgs/lib:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/matteo/franka_ros2_ws/install/admittance_control/lib:/home/matteo/franka_ros2_ws/install/messages_fr3/lib:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/matteo/franka_ros2_ws/install/integration_launch_testing/lib:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/matteo/franka_ros2_ws/install/franka_example_controllers/lib:/home/matteo/franka_ros2_ws/install/franka_semantic_components/lib:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib:/home/matteo/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/matteo/franka_ros2_ws/build/franka_ign_ros2_control

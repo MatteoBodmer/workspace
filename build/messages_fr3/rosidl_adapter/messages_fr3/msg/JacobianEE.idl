@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from messages_fr3/msg/JacobianEE.msg
+// generated code does not contain a copyright notice
+
+
+module messages_fr3 {
+  module msg {
+    typedef double double__42[42];
+    struct JacobianEE {
+      double__42 jacobianee;
+
+      double__42 dtjacobianee;
+    };
+  };
+};

@@ -1,0 +1,118 @@
+[0.008s] Invoking command in '/home/matteo/franka_ros2_ws/build/franka_semantic_components': CMAKE_PREFIX_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware:/home/matteo/franka_ros2_ws/install/franka_msgs:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control:/home/matteo/franka_ros2_ws/install/admittance_control:/home/matteo/franka_ros2_ws/install/messages_fr3:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller:/home/matteo/franka_ros2_ws/install/integration_launch_testing:/home/matteo/franka_ros2_ws/install/franka_bringup:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/matteo/franka_ros2_ws/install/franka_example_controllers:/home/matteo/franka_ros2_ws/install/franka_semantic_components:/home/matteo/franka_ros2_ws/install/franka_gazebo_bringup:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control:/home/matteo/franka_ros2_ws/install/franka_fr3_moveit_config:/home/matteo/franka_ros2_ws/install/franka_gripper:/home/matteo/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware/lib:/home/matteo/franka_ros2_ws/install/franka_msgs/lib:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/matteo/franka_ros2_ws/install/admittance_control/lib:/home/matteo/franka_ros2_ws/install/messages_fr3/lib:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/matteo/franka_ros2_ws/install/integration_launch_testing/lib:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/matteo/franka_ros2_ws/install/franka_example_controllers/lib:/home/matteo/franka_ros2_ws/install/franka_semantic_components/lib:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib:/home/matteo/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/matteo/franka_ros2_ws/src/franka_ros2/franka_semantic_components -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/matteo/franka_ros2_ws/install/franka_semantic_components
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.109s] -- Detecting C compiler ABI info
+[0.161s] -- Detecting C compiler ABI info - done
+[0.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.167s] -- Detecting C compile features
+[0.167s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.233s] -- Detecting CXX compiler ABI info - done
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.239s] -- Detecting CXX compile features
+[0.239s] -- Detecting CXX compile features - done
+[0.241s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.356s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.427s] -- Looking for pthread.h
+[0.487s] -- Looking for pthread.h - found
+[0.487s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.541s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.542s] -- Found Threads: TRUE  
+[0.545s] -- Found franka_hardware: 1.0.0 (/home/matteo/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake)
+[0.581s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.583s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.588s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.594s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.712s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.713s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.727s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.775s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.776s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.791s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.793s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.800s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.810s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.842s] -- Found franka_msgs: 1.0.0 (/home/matteo/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+[0.855s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.874s] -- Found ament_cmake_clang_format: 0.12.11 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[0.875s] -- Found ament_cmake_copyright: 0.12.11 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+[0.876s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.877s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[0.878s] -- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[0.879s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[0.880s] -- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+[0.881s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.882s] -- Found controller_interface: 2.48.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.887s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.890s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.890s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.955s] -- Configuring done
+[1.023s] -- Generating done
+[1.034s] -- Build files have been written to: /home/matteo/franka_ros2_ws/build/franka_semantic_components
+[1.042s] Invoked command in '/home/matteo/franka_ros2_ws/build/franka_semantic_components' returned '0': CMAKE_PREFIX_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware:/home/matteo/franka_ros2_ws/install/franka_msgs:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control:/home/matteo/franka_ros2_ws/install/admittance_control:/home/matteo/franka_ros2_ws/install/messages_fr3:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller:/home/matteo/franka_ros2_ws/install/integration_launch_testing:/home/matteo/franka_ros2_ws/install/franka_bringup:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/matteo/franka_ros2_ws/install/franka_example_controllers:/home/matteo/franka_ros2_ws/install/franka_semantic_components:/home/matteo/franka_ros2_ws/install/franka_gazebo_bringup:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control:/home/matteo/franka_ros2_ws/install/franka_fr3_moveit_config:/home/matteo/franka_ros2_ws/install/franka_gripper:/home/matteo/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware/lib:/home/matteo/franka_ros2_ws/install/franka_msgs/lib:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/matteo/franka_ros2_ws/install/admittance_control/lib:/home/matteo/franka_ros2_ws/install/messages_fr3/lib:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/matteo/franka_ros2_ws/install/integration_launch_testing/lib:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/matteo/franka_ros2_ws/install/franka_example_controllers/lib:/home/matteo/franka_ros2_ws/install/franka_semantic_components/lib:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib:/home/matteo/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/matteo/franka_ros2_ws/src/franka_ros2/franka_semantic_components -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/matteo/franka_ros2_ws/install/franka_semantic_components
+[1.044s] Invoking command in '/home/matteo/franka_ros2_ws/build/franka_semantic_components': CMAKE_PREFIX_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware:/home/matteo/franka_ros2_ws/install/franka_msgs:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control:/home/matteo/franka_ros2_ws/install/admittance_control:/home/matteo/franka_ros2_ws/install/messages_fr3:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller:/home/matteo/franka_ros2_ws/install/integration_launch_testing:/home/matteo/franka_ros2_ws/install/franka_bringup:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/matteo/franka_ros2_ws/install/franka_example_controllers:/home/matteo/franka_ros2_ws/install/franka_semantic_components:/home/matteo/franka_ros2_ws/install/franka_gazebo_bringup:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control:/home/matteo/franka_ros2_ws/install/franka_fr3_moveit_config:/home/matteo/franka_ros2_ws/install/franka_gripper:/home/matteo/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware/lib:/home/matteo/franka_ros2_ws/install/franka_msgs/lib:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/matteo/franka_ros2_ws/install/admittance_control/lib:/home/matteo/franka_ros2_ws/install/messages_fr3/lib:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/matteo/franka_ros2_ws/install/integration_launch_testing/lib:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/matteo/franka_ros2_ws/install/franka_example_controllers/lib:/home/matteo/franka_ros2_ws/install/franka_semantic_components/lib:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib:/home/matteo/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/matteo/franka_ros2_ws/build/franka_semantic_components -- -j12 -l12
+[1.098s] [  4%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_cartesian_pose_interface.cpp.o[0m
+[1.099s] [  9%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/translation_utils.cpp.o[0m
+[1.101s] [ 22%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.102s] [ 27%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_cartesian_velocity_interface.cpp.o[0m
+[1.104s] [ 27%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_robot_state.cpp.o[0m
+[1.104s] [ 22%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_robot_model.cpp.o[0m
+[1.104s] [ 31%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.105s] [ 36%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_semantic_component_interface.cpp.o[0m
+[1.105s] [ 40%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.448s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.506s] [ 45%] Built target gmock_main
+[3.052s] [ 50%] [32m[1mLinking CXX shared library libfranka_semantic_components.so[0m
+[3.239s] [ 50%] Built target franka_semantic_components
+[8.051s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[8.110s] [ 54%] Built target gmock
+[8.130s] [ 77%] [32mBuilding CXX object CMakeFiles/test_franka_robot_state.dir/test/franka_robot_state_test.cpp.o[0m
+[8.130s] [ 77%] [32mBuilding CXX object CMakeFiles/franka_cartesian_velocity_interface_test.dir/test/franka_cartesian_velocity_interface_test.cpp.o[0m
+[8.130s] [ 77%] [32mBuilding CXX object CMakeFiles/franka_cartesian_pose_interface_test.dir/test/franka_cartesian_pose_interface_test.cpp.o[0m
+[8.130s] [ 77%] [32mBuilding CXX object CMakeFiles/test_franka_robot_model.dir/test/franka_robot_model_test.cpp.o[0m
+[8.130s] [ 77%] [32mBuilding CXX object CMakeFiles/franka_semantic_component_interface_test.dir/test/franka_semantic_interface_test.cpp.o[0m
+[11.107s] [ 81%] [32m[1mLinking CXX executable franka_semantic_component_interface_test[0m
+[11.337s] [ 81%] Built target franka_semantic_component_interface_test
+[11.496s] [ 86%] [32m[1mLinking CXX executable franka_cartesian_velocity_interface_test[0m
+[11.612s] [ 90%] [32m[1mLinking CXX executable test_franka_robot_state[0m
+[11.723s] [ 90%] Built target franka_cartesian_velocity_interface_test
+[11.844s] [ 90%] Built target test_franka_robot_state
+[11.962s] [ 95%] [32m[1mLinking CXX executable franka_cartesian_pose_interface_test[0m
+[12.171s] [ 95%] Built target franka_cartesian_pose_interface_test
+[12.578s] [100%] [32m[1mLinking CXX executable test_franka_robot_model[0m
+[12.798s] [100%] Built target test_franka_robot_model
+[12.809s] Invoked command in '/home/matteo/franka_ros2_ws/build/franka_semantic_components' returned '0': CMAKE_PREFIX_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware:/home/matteo/franka_ros2_ws/install/franka_msgs:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control:/home/matteo/franka_ros2_ws/install/admittance_control:/home/matteo/franka_ros2_ws/install/messages_fr3:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller:/home/matteo/franka_ros2_ws/install/integration_launch_testing:/home/matteo/franka_ros2_ws/install/franka_bringup:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/matteo/franka_ros2_ws/install/franka_example_controllers:/home/matteo/franka_ros2_ws/install/franka_semantic_components:/home/matteo/franka_ros2_ws/install/franka_gazebo_bringup:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control:/home/matteo/franka_ros2_ws/install/franka_fr3_moveit_config:/home/matteo/franka_ros2_ws/install/franka_gripper:/home/matteo/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware/lib:/home/matteo/franka_ros2_ws/install/franka_msgs/lib:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/matteo/franka_ros2_ws/install/admittance_control/lib:/home/matteo/franka_ros2_ws/install/messages_fr3/lib:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/matteo/franka_ros2_ws/install/integration_launch_testing/lib:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/matteo/franka_ros2_ws/install/franka_example_controllers/lib:/home/matteo/franka_ros2_ws/install/franka_semantic_components/lib:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib:/home/matteo/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/matteo/franka_ros2_ws/build/franka_semantic_components -- -j12 -l12
+[12.811s] Invoking command in '/home/matteo/franka_ros2_ws/build/franka_semantic_components': CMAKE_PREFIX_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware:/home/matteo/franka_ros2_ws/install/franka_msgs:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control:/home/matteo/franka_ros2_ws/install/admittance_control:/home/matteo/franka_ros2_ws/install/messages_fr3:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller:/home/matteo/franka_ros2_ws/install/integration_launch_testing:/home/matteo/franka_ros2_ws/install/franka_bringup:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/matteo/franka_ros2_ws/install/franka_example_controllers:/home/matteo/franka_ros2_ws/install/franka_semantic_components:/home/matteo/franka_ros2_ws/install/franka_gazebo_bringup:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control:/home/matteo/franka_ros2_ws/install/franka_fr3_moveit_config:/home/matteo/franka_ros2_ws/install/franka_gripper:/home/matteo/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware/lib:/home/matteo/franka_ros2_ws/install/franka_msgs/lib:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/matteo/franka_ros2_ws/install/admittance_control/lib:/home/matteo/franka_ros2_ws/install/messages_fr3/lib:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/matteo/franka_ros2_ws/install/integration_launch_testing/lib:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/matteo/franka_ros2_ws/install/franka_example_controllers/lib:/home/matteo/franka_ros2_ws/install/franka_semantic_components/lib:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib:/home/matteo/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/matteo/franka_ros2_ws/build/franka_semantic_components
+[12.817s] -- Install configuration: "Release"
+[12.817s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/lib/libfranka_semantic_components.so
+[12.818s] -- Set runtime path of "/home/matteo/franka_ros2_ws/install/franka_semantic_components/lib/libfranka_semantic_components.so" to ""
+[12.818s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/include
+[12.818s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components
+[12.818s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_state.hpp
+[12.818s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_cartesian_pose_interface.hpp
+[12.818s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp
+[12.818s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_semantic_component_interface.hpp
+[12.818s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_cartesian_velocity_interface.hpp
+[12.818s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/robot_description_test.txt
+[12.818s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/library_path.sh
+[12.818s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/library_path.dsv
+[12.818s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/package_run_dependencies/franka_semantic_components
+[12.819s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/parent_prefix_path/franka_semantic_components
+[12.819s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/ament_prefix_path.sh
+[12.819s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/ament_prefix_path.dsv
+[12.819s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/path.sh
+[12.819s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/path.dsv
+[12.819s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.bash
+[12.819s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.sh
+[12.819s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.zsh
+[12.819s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.dsv
+[12.819s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.dsv
+[12.820s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/packages/franka_semantic_components
+[12.820s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.820s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_libraries-extras.cmake
+[12.820s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.820s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/franka_semantic_componentsConfig.cmake
+[12.820s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/franka_semantic_componentsConfig-version.cmake
+[12.820s] -- Installing: /home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.xml
+[12.822s] Invoked command in '/home/matteo/franka_ros2_ws/build/franka_semantic_components' returned '0': CMAKE_PREFIX_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware:/home/matteo/franka_ros2_ws/install/franka_msgs:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control:/home/matteo/franka_ros2_ws/install/admittance_control:/home/matteo/franka_ros2_ws/install/messages_fr3:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller:/home/matteo/franka_ros2_ws/install/integration_launch_testing:/home/matteo/franka_ros2_ws/install/franka_bringup:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/matteo/franka_ros2_ws/install/franka_example_controllers:/home/matteo/franka_ros2_ws/install/franka_semantic_components:/home/matteo/franka_ros2_ws/install/franka_gazebo_bringup:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control:/home/matteo/franka_ros2_ws/install/franka_fr3_moveit_config:/home/matteo/franka_ros2_ws/install/franka_gripper:/home/matteo/franka_ros2_ws/install/franka_description:/opt/ros/humble LD_LIBRARY_PATH=/home/matteo/franka_ros2_ws/install/franka_hardware/lib:/home/matteo/franka_ros2_ws/install/franka_msgs/lib:/home/matteo/franka_ros2_ws/install/cartesian_impedance_control/lib:/home/matteo/franka_ros2_ws/install/admittance_control/lib:/home/matteo/franka_ros2_ws/install/messages_fr3/lib:/home/matteo/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/matteo/franka_ros2_ws/install/integration_launch_testing/lib:/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/matteo/franka_ros2_ws/install/franka_example_controllers/lib:/home/matteo/franka_ros2_ws/install/franka_semantic_components/lib:/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/lib:/home/matteo/franka_ros2_ws/install/franka_gripper/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/matteo/franka_ros2_ws/build/franka_semantic_components

@@ -1,0 +1,15 @@
+{
+  "package_name": "messages_fr3",
+  "non_idl_tuples": [
+    "/home/matteo/franka_ros2_ws/src/messages_fr3:srv/SetPose.srv",
+    "/home/matteo/franka_ros2_ws/src/messages_fr3:srv/SetParam.srv",
+    "/home/matteo/franka_ros2_ws/src/messages_fr3:srv/SetMode.srv",
+    "/home/matteo/franka_ros2_ws/src/messages_fr3:srv/PlannerService.srv",
+    "/home/matteo/franka_ros2_ws/src/messages_fr3:srv/SetStiffness.srv",
+    "/home/matteo/franka_ros2_ws/src/messages_fr3:srv/ControllerActivation.srv",
+    "/home/matteo/franka_ros2_ws/src/messages_fr3:msg/JacobianEE.msg",
+    "/home/matteo/franka_ros2_ws/src/messages_fr3:msg/JointEEState.msg",
+    "/home/matteo/franka_ros2_ws/src/messages_fr3:msg/PoseDirection.msg",
+    "/home/matteo/franka_ros2_ws/src/messages_fr3:msg/JointConfig.msg"
+  ]
+}

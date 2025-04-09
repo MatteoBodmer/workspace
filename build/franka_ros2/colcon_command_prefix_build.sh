@@ -1,0 +1,12 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/matteo/franka_ros2_ws/install/franka_description/share/franka_description/package.sh"
+. "/home/matteo/franka_ros2_ws/install/franka_msgs/share/franka_msgs/package.sh"
+. "/home/matteo/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.sh"
+. "/home/matteo/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.sh"
+. "/home/matteo/franka_ros2_ws/install/franka_fr3_moveit_config/share/franka_fr3_moveit_config/package.sh"
+. "/home/matteo/franka_ros2_ws/install/franka_ign_ros2_control/share/franka_ign_ros2_control/package.sh"
+. "/home/matteo/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.sh"
+. "/home/matteo/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.sh"
+. "/home/matteo/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/package.sh"
+. "/home/matteo/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.sh"
+. "/home/matteo/franka_ros2_ws/install/franka_bringup/share/franka_bringup/package.sh"

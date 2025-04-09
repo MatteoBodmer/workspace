@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-73145e9977c307f890ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "messages_fr3__py",
+					"jsonFile" : "directory-messages_fr3__py-Release-99cc48cfdbfaa5e4e6ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/matteo/franka_ros2_ws/build/messages_fr3/messages_fr3__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "messages_fr3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_messages_fr3_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_messages_fr3_egg-Release-93d8978891cbb51a3431.json",
+					"name" : "ament_cmake_python_build_messages_fr3_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_messages_fr3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_messages_fr3-Release-8b6a8d152941517ea1de.json",
+					"name" : "ament_cmake_python_copy_messages_fr3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "messages_fr3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messages_fr3-Release-b42ba7aff38757bb3d11.json",
+					"name" : "messages_fr3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "messages_fr3__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messages_fr3__cpp-Release-c6cd2abe48a58e060265.json",
+					"name" : "messages_fr3__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "messages_fr3__py::@3633e63d78049c79e80f",
+					"jsonFile" : "target-messages_fr3__py-Release-2885c524f454d57ef437.json",
+					"name" : "messages_fr3__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "messages_fr3__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messages_fr3__rosidl_generator_c-Release-630d9b302e3644472074.json",
+					"name" : "messages_fr3__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "messages_fr3__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messages_fr3__rosidl_generator_py-Release-fbb662895a0613a6efcc.json",
+					"name" : "messages_fr3__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "messages_fr3__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messages_fr3__rosidl_typesupport_c-Release-52956b178b146bdabe52.json",
+					"name" : "messages_fr3__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "messages_fr3__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messages_fr3__rosidl_typesupport_c__pyext-Release-21dddbf6388996f67a50.json",
+					"name" : "messages_fr3__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "messages_fr3__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messages_fr3__rosidl_typesupport_cpp-Release-9c962e75dff36c6941be.json",
+					"name" : "messages_fr3__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "messages_fr3__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messages_fr3__rosidl_typesupport_fastrtps_c-Release-f9227f45a78f34ff57ee.json",
+					"name" : "messages_fr3__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "messages_fr3__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messages_fr3__rosidl_typesupport_fastrtps_c__pyext-Release-bb7524922017ceff672d.json",
+					"name" : "messages_fr3__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "messages_fr3__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messages_fr3__rosidl_typesupport_fastrtps_cpp-Release-808ad6a61e1cc2e2ac92.json",
+					"name" : "messages_fr3__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "messages_fr3__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messages_fr3__rosidl_typesupport_introspection_c-Release-31f604c6c32effe5fcb8.json",
+					"name" : "messages_fr3__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "messages_fr3__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messages_fr3__rosidl_typesupport_introspection_c__pyext-Release-e04a2f27b7ec125773d6.json",
+					"name" : "messages_fr3__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "messages_fr3__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messages_fr3__rosidl_typesupport_introspection_cpp-Release-84d29760401e3edd11b6.json",
+					"name" : "messages_fr3__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "messages_fr3_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messages_fr3_uninstall-Release-34def2f51746932c45ee.json",
+					"name" : "messages_fr3_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-0225d05786221d148f6b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/matteo/franka_ros2_ws/build/messages_fr3",
+		"source" : "/home/matteo/franka_ros2_ws/src/messages_fr3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

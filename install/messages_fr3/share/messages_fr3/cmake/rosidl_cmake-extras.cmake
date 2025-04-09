@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(messages_fr3_IDL_FILES "srv/SetPose.idl;srv/SetParam.idl;srv/SetMode.idl;srv/PlannerService.idl;srv/SetStiffness.idl;srv/ControllerActivation.idl;msg/JacobianEE.idl;msg/JointEEState.idl;msg/PoseDirection.idl;msg/JointConfig.idl")
+set(messages_fr3_INTERFACE_FILES "srv/SetPose.srv;srv/SetPose_Request.msg;srv/SetPose_Response.msg;srv/SetParam.srv;srv/SetParam_Request.msg;srv/SetParam_Response.msg;srv/SetMode.srv;srv/SetMode_Request.msg;srv/SetMode_Response.msg;srv/PlannerService.srv;srv/PlannerService_Request.msg;srv/PlannerService_Response.msg;srv/SetStiffness.srv;srv/SetStiffness_Request.msg;srv/SetStiffness_Response.msg;srv/ControllerActivation.srv;srv/ControllerActivation_Request.msg;srv/ControllerActivation_Response.msg;msg/JacobianEE.msg;msg/JointEEState.msg;msg/PoseDirection.msg;msg/JointConfig.msg")
